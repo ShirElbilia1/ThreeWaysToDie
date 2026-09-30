@@ -6,16 +6,23 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     int maxHp;
     int currentHp;
 
-    public abstract void Movement();
     public abstract void SpecialAbility();
-    public abstract void Die();
+
+    public void Movement()
+    {
+        throw new System.NotImplementedException();
+    }
+    public void Die()
+    {
+        throw new System.NotImplementedException();
+    }
     public void TakeDamage(int howMuch)
     {
         throw new System.NotImplementedException();
     }
 
-// Start is called once before the first execution of Update after the MonoBehaviour is created
-void Start()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
         
     }
