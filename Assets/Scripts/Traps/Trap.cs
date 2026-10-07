@@ -2,16 +2,32 @@ using UnityEngine;
 
 public abstract class Trap : MonoBehaviour, IDamageable
 {
+    [SerializeField] protected int maxHp = 50;
+    protected int currentHp;
+
     public abstract void ApplyDamage(IDamageable damageable);
 
+    protected virtual void Awake()
+    {
+        currentHp = maxHp;
+    }
+    
     public void Die()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Trap was destroyed!");
+        Destroy(gameObject);
     }
 
-    public void TakeDamage(int howMuch)
+    public void TakeDamage(int howMuch)  //TODO: think about adding a health bar
     {
-        throw new System.NotImplementedException();
+        currentHp -= howMuch;
+
+        Debug.Log($"Trap took {howMuch} damage. current HP is {currentHp}");
+
+        if (currentHp <= 0)
+        {
+            Die();
+        }
     }
 
     //abstract layerMask whatIDamage TODO:check this

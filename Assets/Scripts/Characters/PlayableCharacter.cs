@@ -5,7 +5,8 @@ using UnityEngine.InputSystem;
 public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 {
     [SerializeField] protected int speed;
-    [SerializeField] protected int maxHp;
+    [SerializeField] protected int maxHp = 100;
+    protected Vector2 facingDirection = Vector2.right;
     protected int currentHp;
     protected Vector2 moveDirection;
     protected Animator animator;
@@ -18,10 +19,6 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
     public void Movement()
     {
-        //Debug.Log("Movement is running");
-        //float horizontal = Input.GetAxisRaw("Horizontal");
-        //float vertical = Input.GetAxisRaw("Vertical");
-
         float horizontal = 0f;
         float vertical = 0f;
 
@@ -31,23 +28,18 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         if (Keyboard.current.rightArrowKey.isPressed)
             horizontal = 1f;
 
-        //if (Keyboard.current.sKey.isPressed)
-        //    vertical = -1f;
-
-        //if (Keyboard.current.wKey.isPressed)
-        //    vertical = 1f;
-
-        //Vector3 direction = new Vector3(horizontal, vertical, 0f);
 
         moveDirection = new Vector2(horizontal, vertical).normalized;
 
-        //transform.position += direction.normalized * speed * Time.deltaTime;
+        // to flip animation direction
         if (moveDirection.x > 0)
         {
+            facingDirection = Vector2.right;
             spriteRenderer.flipX = false;
         }
         else if (moveDirection.x < 0)
         {
+            facingDirection = Vector2.left;
             spriteRenderer.flipX = true;
         }
 
@@ -57,17 +49,25 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     protected virtual void Awake()
     {
         currentHp = maxHp;
-        animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>(); //TODO: think if this is good enough or too slow (GetComponent)
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    public void Die()
+    public virtual void Die()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("character died!");
+        //TODO: Game Over!
     }
-    public void TakeDamage(int howMuch)
+    public virtual void TakeDamage(int howMuch) //TODO: think about adding a health bar
     {
-        throw new System.NotImplementedException();
+        currentHp -= howMuch;
+
+        Debug.Log($"Character took {howMuch} damage. current HP is {currentHp}");
+
+        if (currentHp <= 0)
+        {
+            Die();
+        }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -80,10 +80,16 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     void Update()
     {
         Movement();
+
+        if (Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            SpecialAbility();
+        }
     }
 
     void FixedUpdate()
     {
+        // for physics updates
         rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
     }
 }
