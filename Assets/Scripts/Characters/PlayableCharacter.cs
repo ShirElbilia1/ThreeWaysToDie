@@ -6,6 +6,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 {
     [SerializeField] protected int speed;
     [SerializeField] protected int maxHp = 100;
+    [SerializeField] protected int damage = 50;
     protected Vector2 facingDirection = Vector2.right;
     protected int currentHp;
     protected Vector2 moveDirection;
@@ -16,6 +17,10 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
 
     public abstract void SpecialAbility();
+    public void ApplyDamage(IDamageable damageable)
+    {
+        damageable.TakeDamage(damage);
+    }
 
     public void Movement()
     {
@@ -87,7 +92,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
     }
 
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         // for physics updates
         rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);

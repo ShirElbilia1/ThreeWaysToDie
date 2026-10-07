@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class Trap : MonoBehaviour, IDamageable
 {
-    [SerializeField] protected int maxHp = 50;
+    [SerializeField] protected int maxHp = 100;
     protected int currentHp;
 
     public abstract void ApplyDamage(IDamageable damageable);

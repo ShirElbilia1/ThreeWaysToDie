@@ -497,6 +497,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Grandma
   speed: 3
   maxHp: 100
+  damage: 50
+  chargeSpeed: 12
+  chargeDuration: 0.3
 --- !u!70 &1312318682
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -592,7 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffcc1bd5eed4206429dbcfbc315372a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrazyVacuumTrap
-  maxHp: 50
+  maxHp: 100
   damage: 20
 --- !u!61 &1779194671
 BoxCollider2D:
