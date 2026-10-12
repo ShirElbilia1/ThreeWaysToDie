@@ -44,11 +44,13 @@ public class Grandma : PlayableCharacter
         if (!isCharging)
             return;
 
-        IDamageable damagable = other.GetComponent<IDamageable>();
+        //IDamageable damagable = other.GetComponent<IDamageable>();
+        // make sure character can only hit traps
+        Trap trap = other.GetComponent<Trap>();
 
-        if (damagable != null)
+        if (trap != null)
         {
-            ApplyDamage(damagable);
+            ApplyDamage(trap);
         }
     }
 }
