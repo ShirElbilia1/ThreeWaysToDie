@@ -49,7 +49,9 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
 
         bool isMoving = horizontal != 0 || vertical != 0;
-        animator.SetBool("IsMoving", isMoving);
+
+        if (animator != null) // to be able to work without animations
+            animator.SetBool("IsMoving", isMoving);
     }
     protected virtual void Awake()
     {
@@ -67,7 +69,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     {
         currentHp -= howMuch;
 
-        Debug.Log($"Character took {howMuch} damage. current HP is {currentHp}");
+        Debug.Log($"{gameObject.name} took {howMuch} damage. current HP is {currentHp}");
 
         if (currentHp <= 0)
         {
