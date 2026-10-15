@@ -4,6 +4,7 @@ public class VinylProjectile : MonoBehaviour
 {
     [SerializeField] private float speed = 8f;
     [SerializeField] private float maxDistance = 5f;
+    [SerializeField] private int damage = 20;
 
     private Rigidbody2D rb;
     private Vector2 direction;
@@ -33,6 +34,14 @@ public class VinylProjectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Vinyl hit: " + other.gameObject.name);
+
+        Trap trap = other.GetComponent<Trap>();
+
+        if (trap != null)
+        {
+            trap.TakeDamage(damage);
+            Destroy(gameObject);
+        }
 
         // only for now- will be changed later
         if (other.gameObject.name == "TestWall")

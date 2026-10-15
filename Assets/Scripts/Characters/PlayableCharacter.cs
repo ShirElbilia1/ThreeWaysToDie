@@ -98,9 +98,6 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     protected virtual void FixedUpdate()
     {
         //rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
-        rb.linearVelocity = new Vector2(
-        moveDirection.x * speed,
-        rb.linearVelocity.y
-    );
+        rb.linearVelocity = new Vector2(moveDirection.x * speed, rb.linearVelocity.y);
     }
 }
