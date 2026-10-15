@@ -1737,9 +1737,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3effd11b036044a479e1de92fd1c223c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Baby
-  speed: 10
+  speed: 8
   maxHp: 30
   damage: 0
+  dashSpeed: 30
+  dashDuration: 0.2
 --- !u!50 &257192990
 Rigidbody2D:
   serializedVersion: 5
