@@ -8331,6 +8331,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6852901737568349794, guid: c8446a704194d224fb16160724827da4, type: 3}
+      propertyPath: flowerpotHeight
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852901737568349794, guid: c8446a704194d224fb16160724827da4, type: 3}
       propertyPath: flowerpotSpawnerPrefab
       value: 
       objectReference: {fileID: 5845589901040641381, guid: 986c039af04ce684596be0f58b16837c, type: 3}
@@ -10265,6 +10269,10 @@ PrefabInstance:
     - target: {fileID: 6124521471696140210, guid: c8446a704194d224fb16160724827da4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852901737568349794, guid: c8446a704194d224fb16160724827da4, type: 3}
+      propertyPath: flowerpotHeight
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8001881876674134745, guid: c8446a704194d224fb16160724827da4, type: 3}
       propertyPath: m_Name
