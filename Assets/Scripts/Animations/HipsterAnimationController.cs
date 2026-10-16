@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HipsterAnimationController : MonoBehaviour
 {
@@ -15,7 +16,12 @@ public class HipsterAnimationController : MonoBehaviour
     void Update()
     {
         float speed = Mathf.Abs(rb.linearVelocity.x);
-
         animator.SetFloat("Speed", speed);
+
+        if (Keyboard.current != null &&
+            Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            animator.SetTrigger("Throw");
+        }
     }
 }
