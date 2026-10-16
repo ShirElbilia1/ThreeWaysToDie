@@ -6293,6 +6293,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.53, y: 2.7709465}
   m_EdgeRadius: 0
+--- !u!114 &1312318691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312318677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5f0b48ac7bdc945a6bbcfe98cad690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrandmaAnimationController
 --- !u!1 &1334931748
 GameObject:
   m_ObjectHideFlags: 0
@@ -10523,6 +10535,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7570914508952927848, guid: 09bdf102ff2e18744adccdecb07c5876, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1312318687}
+    - targetCorrespondingSourceObject: {fileID: 7570914508952927848, guid: 09bdf102ff2e18744adccdecb07c5876, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1312318691}
   m_SourcePrefab: {fileID: 100100000, guid: 09bdf102ff2e18744adccdecb07c5876, type: 3}
 --- !u!1001 &9079516190517070359
 PrefabInstance:
