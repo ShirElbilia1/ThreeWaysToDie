@@ -1,11 +1,12 @@
 using UnityEngine;
 
-public class Pigeon : MonoBehaviour
+public class Pigeon : Trap
 {
     [SerializeField] private PigeonProjectile projectilePrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float detectionRange = 6f;
     [SerializeField] private float fireCooldown = 2f;
+    [SerializeField] private int damage = 60;
 
     private float fireTimer;
 
@@ -34,12 +35,11 @@ public class Pigeon : MonoBehaviour
     private void Shoot(Vector2 direction)
     {
         PigeonProjectile projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-        projectile.Initialize(direction);
+        projectile.Initialize(direction, this);
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void ApplyDamage(IDamageable damageable)
     {
-        
+        damageable.TakeDamage(damage);
     }
 }

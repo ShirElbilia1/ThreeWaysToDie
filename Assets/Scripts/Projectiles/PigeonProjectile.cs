@@ -4,13 +4,21 @@ public class PigeonProjectile : MonoBehaviour
 {
     [SerializeField] private float speed = 7f;
     [SerializeField] private float lifetime = 5f;
-    [SerializeField] private int damage = 60;
 
     private Vector2 direction;
+    private Pigeon owner;
+    private Rigidbody2D rb;
 
-    public void Initialize(Vector2 targetDirection)
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    public void Initialize(Vector2 targetDirection, Pigeon pigeon)
     {
         direction = targetDirection.normalized;
+        owner = pigeon;
+
         Destroy(gameObject, lifetime);
     }
 
@@ -26,20 +34,10 @@ public class PigeonProjectile : MonoBehaviour
 
         if (character != null)
         {
-            Debug.Log("Pigeon projectile hit player!");
-            character.TakeDamage(damage);
+            if (owner != null)
+                owner.ApplyDamage(character);
+
             Destroy(gameObject);
         }
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
