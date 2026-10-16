@@ -2942,6 +2942,7 @@ GameObject:
   - component: {fileID: 566074708}
   - component: {fileID: 566074710}
   - component: {fileID: 566074709}
+  - component: {fileID: 566074711}
   m_Layer: 0
   m_Name: Stair_08_Floor1
   m_TagString: Untagged
@@ -2995,7 +2996,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -3069,6 +3070,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!251 &566074711
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566074707}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4260,6 +4280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 890655403}
+  - component: {fileID: 890655404}
   m_Layer: 0
   m_Name: Stairs_03
   m_TagString: Untagged
@@ -4291,6 +4312,52 @@ Transform:
   - {fileID: 566074708}
   m_Father: {fileID: 1527544818}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &890655404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890655402}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -13.559476, y: -1.5705659}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.3770618, y: 9.253094}
+  m_EdgeRadius: 0
 --- !u!1 &926010779
 GameObject:
   m_ObjectHideFlags: 0
@@ -6315,6 +6382,7 @@ GameObject:
   - component: {fileID: 1350009876}
   - component: {fileID: 1350009878}
   - component: {fileID: 1350009877}
+  - component: {fileID: 1350009879}
   m_Layer: 0
   m_Name: 'Stair_07_Floor1 '
   m_TagString: Untagged
@@ -6368,7 +6436,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
@@ -6442,6 +6510,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!251 &1350009879
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350009875}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1386247924
 GameObject:
   m_ObjectHideFlags: 0
@@ -9637,6 +9724,7 @@ GameObject:
   - component: {fileID: 2043906648}
   - component: {fileID: 2043906646}
   - component: {fileID: 2043906651}
+  - component: {fileID: 2043906652}
   m_Layer: 0
   m_Name: Hipster
   m_TagString: Untagged
@@ -9735,7 +9823,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1277530438720032333, guid: 33ca41e6650dfd8419060261138f7de2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9808,6 +9896,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9, y: 12}
   m_EdgeRadius: 0
+--- !u!114 &2043906652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043906645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b440d17e4112845a2967491ee7ab5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StairsStepMovement
+  stepHeight: 1.0867
+  stepDuration: 0.15
+  stairColliders:
+  - {fileID: 498541812}
+  - {fileID: 55332836}
+  - {fileID: 40029308}
+  - {fileID: 1676241940}
+  - {fileID: 257046265}
+  - {fileID: 1112046826}
+  - {fileID: 60579541}
+  - {fileID: 1350009877}
+  - {fileID: 566074709}
 --- !u!1 &2080394846
 GameObject:
   m_ObjectHideFlags: 0
