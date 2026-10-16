@@ -9717,6 +9717,8 @@ GameObject:
   - component: {fileID: 2043906648}
   - component: {fileID: 2043906646}
   - component: {fileID: 2043906651}
+  - component: {fileID: 2043906652}
+  - component: {fileID: 2043906653}
   m_Layer: 0
   m_Name: Hipster
   m_TagString: Untagged
@@ -9888,6 +9890,40 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 9, y: 12}
   m_EdgeRadius: 0
+--- !u!95 &2043906652
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043906645}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1fd7d20be36a1f54a8eeb16c5d2b05a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2043906653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043906645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404710fb32988d24f9270e547c3ad0e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HipsterAnimationController
 --- !u!1 &2080394846
 GameObject:
   m_ObjectHideFlags: 0
