@@ -4,6 +4,7 @@ public class PigeonProjectile : MonoBehaviour
 {
     [SerializeField] private float speed = 7f;
     [SerializeField] private float lifetime = 5f;
+    [SerializeField] private int damage = 60;
 
     private Vector2 direction;
 
@@ -26,6 +27,7 @@ public class PigeonProjectile : MonoBehaviour
         if (character != null)
         {
             Debug.Log("Pigeon projectile hit player!");
+            character.TakeDamage(damage);
             Destroy(gameObject);
         }
     }
