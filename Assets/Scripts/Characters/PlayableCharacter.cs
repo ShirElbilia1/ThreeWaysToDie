@@ -84,7 +84,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         Movement();
 
@@ -94,9 +94,10 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
     }
 
+    // for physics updates
     protected virtual void FixedUpdate()
     {
-        // for physics updates
-        rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
+        //rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(moveDirection.x * speed, rb.linearVelocity.y);
     }
 }
