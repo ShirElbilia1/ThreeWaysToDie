@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: eff0b0172ac7d2349bd2f2a58fe55d44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -309090657252327341
+    second: BabyCrawl_01_0
+  - first:
+      213: 7027733724662131969
+    second: BabyCrawl_01_1
+  - first:
+      213: 5160590814376453911
+    second: BabyCrawl_01_2
+  - first:
+      213: -4937789897805603959
+    second: BabyCrawl_01_3
+  - first:
+      213: -8891337475877165548
+    second: BabyCrawl_01_4
+  - first:
+      213: 8822622035186612172
+    second: BabyCrawl_01_5
+  - first:
+      213: -66708924815198606
+    second: BabyCrawl_01_6
+  - first:
+      213: -2258665619525933525
+    second: BabyCrawl_01_7
+  - first:
+      213: 6562699306095611302
+    second: BabyCrawl_01_8
+  - first:
+      213: 1168716091063103998
+    second: BabyCrawl_01_9
+  - first:
+      213: 6209974249696380518
+    second: BabyCrawl_01_10
+  - first:
+      213: -6581118470944594473
+    second: BabyCrawl_01_11
+  - first:
+      213: 2925580887833882313
+    second: BabyCrawl_01_12
+  - first:
+      213: -8308984594590445282
+    second: BabyCrawl_01_13
+  - first:
+      213: 4474961482183239342
+    second: BabyCrawl_01_14
+  - first:
+      213: 4958962697749136293
+    second: BabyCrawl_01_15
+  - first:
+      213: 114418339608561468
+    second: BabyCrawl_01_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BabyCrawl_01_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 605
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35045135fa3e5bbf0800000000000000
+      internalID: -309090657252327341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 600
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10de48a8696878160800000000000000
+      internalID: 7027733724662131969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 634
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7176d02f00a1e9740800000000000000
+      internalID: 5160590814376453911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 657
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bd8cddf32797bb0800000000000000
+      internalID: -4937789897805603959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 663
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416293c8caf9b9480800000000000000
+      internalID: -8891337475877165548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 592
+        width: 82
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7f4da2fff307a70800000000000000
+      internalID: 8822622035186612172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 594
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276ba091690031ff0800000000000000
+      internalID: -66708924815198606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 501
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26e4c1069b97a0e0800000000000000
+      internalID: -2258665619525933525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad088b8f34631b50800000000000000
+      internalID: 6562699306095611302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 81
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1791bb71d183010800000000000000
+      internalID: 1168716091063103998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_10
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 27
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666c971ada24e2650800000000000000
+      internalID: 6209974249696380518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 15
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5e5927e9b2ba4a0800000000000000
+      internalID: -6581118470944594473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 92
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cea20d2150c99820800000000000000
+      internalID: 2925580887833882313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 69
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e115e3bb88e80bc80800000000000000
+      internalID: -8308984594590445282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_14
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 64
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6661932c14a1e30800000000000000
+      internalID: 4474961482183239342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 103
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a300c5cc46c1d440800000000000000
+      internalID: 4958962697749136293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BabyCrawl_01_16
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 27
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c378828afde769100800000000000000
+      internalID: 114418339608561468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BabyCrawl_01_0: -309090657252327341
+      BabyCrawl_01_1: 7027733724662131969
+      BabyCrawl_01_10: 6209974249696380518
+      BabyCrawl_01_11: -6581118470944594473
+      BabyCrawl_01_12: 2925580887833882313
+      BabyCrawl_01_13: -8308984594590445282
+      BabyCrawl_01_14: 4474961482183239342
+      BabyCrawl_01_15: 4958962697749136293
+      BabyCrawl_01_16: 114418339608561468
+      BabyCrawl_01_2: 5160590814376453911
+      BabyCrawl_01_3: -4937789897805603959
+      BabyCrawl_01_4: -8891337475877165548
+      BabyCrawl_01_5: 8822622035186612172
+      BabyCrawl_01_6: -66708924815198606
+      BabyCrawl_01_7: -2258665619525933525
+      BabyCrawl_01_8: 6562699306095611302
+      BabyCrawl_01_9: 1168716091063103998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class Pigeon : Trap
@@ -9,6 +10,12 @@ public class Pigeon : Trap
     [SerializeField] private int damage = 60;
 
     private float fireTimer;
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -21,12 +28,12 @@ public class Pigeon : Trap
 
         Vector2 direction = player.transform.position - firePoint.position;
 
-        // direction.magnitude returns vector length to detect if the character is within detectionRange
         if (direction.magnitude > detectionRange)
             return;
 
         if (fireTimer <= 0f)
         {
+            animator.SetTrigger("Shoot");
             Shoot(direction);
             fireTimer = fireCooldown;
         }
@@ -34,7 +41,12 @@ public class Pigeon : Trap
 
     private void Shoot(Vector2 direction)
     {
-        PigeonProjectile projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
+        PigeonProjectile projectile = Instantiate(
+            projectilePrefab,
+            firePoint.position,
+            Quaternion.identity
+        );
+
         projectile.Initialize(direction, this);
     }
 
