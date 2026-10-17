@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     // singleton => only one instance can be created
     public static GameManager Instance { get; private set; }
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject winPanel;
 
 
     private void Awake()
@@ -30,5 +31,12 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f; // returns time flow to normal
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void WinGame()
+    {
+        Debug.Log("YOU WIN!");
+        winPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
