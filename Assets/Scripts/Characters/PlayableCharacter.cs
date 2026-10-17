@@ -62,8 +62,8 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     }
     public virtual void Die()
     {
-        Debug.Log("character died!");
-        //TODO: Game Over!
+        Debug.Log($"{gameObject.name} died!");
+        GameManager.Instance.GameOver();
     }
     public virtual void TakeDamage(int howMuch) //TODO: think about adding a health bar
     {
@@ -75,12 +75,6 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         {
             Die();
         }
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame
