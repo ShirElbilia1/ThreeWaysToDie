@@ -61,4 +61,13 @@ public class CharacterManager : MonoBehaviour
 
         Debug.Log($"Switched to {currentCharacter.gameObject.name}");
     }
+
+public PlayableCharacter GetActiveCharacter()
+{
+    if (characters == null || characters.Length == 0)
+        return null;
+
+    return characters[currentCharacterIndex];
+}
+
 }
