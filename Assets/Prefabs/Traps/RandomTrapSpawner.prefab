@@ -49,5 +49,5 @@ MonoBehaviour:
   - {fileID: 5814476989419121475, guid: 6633c5b1f222c4d49bc5986405cb2991, type: 3}
   - {fileID: 6400653524211093086, guid: cbfe4c942f5966a4aac92ba35a3dc521, type: 3}
   flowerpotSpawnerPrefab: {fileID: 5845589901040641381, guid: 986c039af04ce684596be0f58b16837c, type: 3}
-  pigeonHeight: 2
+  pigeonHeight: 1.5
   flowerpotHeight: 5
