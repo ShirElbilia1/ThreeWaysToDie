@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ea6733b3c987e4b3195915718a59a163
+guid: e3c2ad3aa53c84f38a64add33736e7c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2868539044483428322
-    second: wall_0
+      213: 7663514566182357160
+    second: Weathered Blue Apartment Door-Photoroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wall_0
+      name: Weathered Blue Apartment Door-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 135
+        y: 95
+        width: 889
+        height: 1441
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2efe5c210191fc720800000000000000
-      internalID: 2868539044483428322
+      spriteID: 8a8c45815e54a5a60800000000000000
+      internalID: 7663514566182357160
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      wall_0: 2868539044483428322
+      Weathered Blue Apartment Door-Photoroom_0: 7663514566182357160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

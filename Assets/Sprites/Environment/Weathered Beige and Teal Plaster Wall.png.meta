@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 24253b9fc36a0487e91ed53715eb247c
+guid: 16bb221b9da64456d861e3145f63ed86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4373184736405950995
-    second: floor_0
+      213: 5331161668180480710
+    second: Weathered Beige and Teal Plaster Wall_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floor_0
+      name: Weathered Beige and Teal Plaster Wall_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1983
+        height: 793
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dedec5107a35f43c0800000000000000
-      internalID: -4373184736405950995
+      spriteID: 6c29310aa471cf940800000000000000
+      internalID: 5331161668180480710
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      floor_0: -4373184736405950995
+      Weathered Beige and Teal Plaster Wall_0: 5331161668180480710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
