@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb828d134c94e8e4d9324ae5699692b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pigeon
-  maxHp: 100
+  maxHp: 20
   projectilePrefab: {fileID: 3943477901475468979, guid: de4efdb62886f4e4092d7e8ff417aa56, type: 3}
   firePoint: {fileID: 9031274115812054704}
   detectionRange: 6
