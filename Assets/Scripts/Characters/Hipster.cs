@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,8 +12,16 @@ public class Hipster : PlayableCharacter
 
     public override void SpecialAbility()
     {
+        // Play throw animation
+        GetComponent<Animator>().SetTrigger("Throw");
+
         // Create the vinyl record
-        VinylProjectile vinyl = Instantiate(vinylPrefab, transform.position, Quaternion.identity);
+        VinylProjectile vinyl = Instantiate(
+            vinylPrefab,
+            transform.position,
+            Quaternion.identity
+        );
+
         vinyl.Initialize(facingDirection);
     }
 

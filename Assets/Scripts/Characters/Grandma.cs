@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class Grandma : PlayableCharacter
@@ -5,14 +6,17 @@ public class Grandma : PlayableCharacter
     //[SerializeField] private float chargeDistance = 2f;
     [SerializeField] private float chargeSpeed = 12f;
     [SerializeField] private float chargeDuration = 0.3f;
-    
 
     private bool isCharging = false;
     private float chargeTimer;
+
     public override void SpecialAbility()
     {
         if (isCharging)
             return;
+
+        // Play charge animation
+        GetComponent<Animator>().SetTrigger("Charge");
 
         isCharging = true;
         chargeTimer = chargeDuration;
@@ -44,8 +48,7 @@ public class Grandma : PlayableCharacter
         if (!isCharging)
             return;
 
-        //IDamageable damagable = other.GetComponent<IDamageable>();
-        // make sure character can only hit traps
+        // Make sure character can only hit traps
         Trap trap = other.GetComponent<Trap>();
 
         if (trap != null)
