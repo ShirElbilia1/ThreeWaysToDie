@@ -6332,6 +6332,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hipster
       objectReference: {fileID: 0}
+    - target: {fileID: 7436037056353988818, guid: 90137b5c583c124418e571bd22bde329, type: 3}
+      propertyPath: m_Size.x
+      value: 11.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436037056353988818, guid: 90137b5c583c124418e571bd22bde329, type: 3}
+      propertyPath: m_Size.y
+      value: 11.93
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
