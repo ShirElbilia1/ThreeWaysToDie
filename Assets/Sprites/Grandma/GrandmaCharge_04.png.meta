@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 925d58ed3e314a145aaa9f779f1a43f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8977290540189716945
+    second: GrandmaCharge_04_0
+  - first:
+      213: -2616447136762874500
+    second: GrandmaCharge_04_1
+  - first:
+      213: -6234172616099149234
+    second: GrandmaCharge_04_2
+  - first:
+      213: -2211026003867532572
+    second: GrandmaCharge_04_3
+  - first:
+      213: 8730904261594816258
+    second: GrandmaCharge_04_4
+  - first:
+      213: -746340304863183622
+    second: GrandmaCharge_04_5
+  - first:
+      213: -8638429689043587810
+    second: GrandmaCharge_04_6
+  - first:
+      213: -8557241771531093777
+    second: GrandmaCharge_04_7
+  - first:
+      213: -2073188119578146911
+    second: GrandmaCharge_04_8
+  - first:
+      213: -8570563672724054141
+    second: GrandmaCharge_04_9
+  - first:
+      213: 926253630434152337
+    second: GrandmaCharge_04_10
+  - first:
+      213: 8319067343898942535
+    second: GrandmaCharge_04_11
+  - first:
+      213: -7745075233860923592
+    second: GrandmaCharge_04_12
+  - first:
+      213: 7512999568302246934
+    second: GrandmaCharge_04_13
+  - first:
+      213: -6538735382880918113
+    second: GrandmaCharge_04_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrandmaCharge_04_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 530
+        height: 702
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e648241d14a6380800000000000000
+      internalID: -8977290540189716945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 643
+        width: 144
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7539af013380bbd0800000000000000
+      internalID: -2616447136762874500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a41f42905cb79a0800000000000000
+      internalID: -6234172616099149234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 614
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e20352609bd051e0800000000000000
+      internalID: -2211026003867532572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 578
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f9d48ea276a2970800000000000000
+      internalID: 8730904261594816258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 146
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcb21f627774a5f0800000000000000
+      internalID: -746340304863183622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 149
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d6e5757f12e1880800000000000000
+      internalID: -8638429689043587810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe831ce62f19e3980800000000000000
+      internalID: -8557241771531093777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 142
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a70cf3b36e8a33e0800000000000000
+      internalID: -2073188119578146911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 136
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f5a6a9fbd3f0980800000000000000
+      internalID: -8570563672724054141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 112
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f81f5f4c6badc00800000000000000
+      internalID: 926253630434152337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c16a74ca3437370800000000000000
+      internalID: 8319067343898942535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 48
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f4b072c17f38490800000000000000
+      internalID: -7745075233860923592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 32
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c81524d49834860800000000000000
+      internalID: 7512999568302246934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrandmaCharge_04_14
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95ea1f10deb145a0800000000000000
+      internalID: -6538735382880918113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GrandmaCharge_04_0: -8977290540189716945
+      GrandmaCharge_04_1: -2616447136762874500
+      GrandmaCharge_04_10: 926253630434152337
+      GrandmaCharge_04_11: 8319067343898942535
+      GrandmaCharge_04_12: -7745075233860923592
+      GrandmaCharge_04_13: 7512999568302246934
+      GrandmaCharge_04_14: -6538735382880918113
+      GrandmaCharge_04_2: -6234172616099149234
+      GrandmaCharge_04_3: -2211026003867532572
+      GrandmaCharge_04_4: 8730904261594816258
+      GrandmaCharge_04_5: -746340304863183622
+      GrandmaCharge_04_6: -8638429689043587810
+      GrandmaCharge_04_7: -8557241771531093777
+      GrandmaCharge_04_8: -2073188119578146911
+      GrandmaCharge_04_9: -8570563672724054141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
