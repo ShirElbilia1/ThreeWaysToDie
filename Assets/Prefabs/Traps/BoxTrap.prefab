@@ -151,5 +151,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffcc1bd5eed4206429dbcfbc315372a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrazyVacuumTrap
-  maxHp: 100
+  maxHp: 20
   damage: 20
