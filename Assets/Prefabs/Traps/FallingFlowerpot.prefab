@@ -182,3 +182,5 @@ MonoBehaviour:
   maxHp: 100
   damage: 40
   lifetime: 5
+  brokenSprite: {fileID: -1270875125148270663, guid: 6c670ef1f9145014eb026f1813f8cab1, type: 3}
+  breakDuration: 0.3
