@@ -170,4 +170,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VinylProjectile
   speed: 8
-  maxDistance: 5
+  maxDistance: 9
+  damage: 20
