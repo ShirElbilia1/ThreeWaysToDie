@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8001881876674134745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6124521471696140210}
+  - component: {fileID: 6852901737568349794}
+  m_Layer: 0
+  m_Name: RandomTrapSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6124521471696140210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001881876674134745}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.46, y: -3.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6852901737568349794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001881876674134745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b64121c2e79f547b937684106ed536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomTrapSpawner
+  trapPrefabs:
+  - {fileID: 4934031642930184279, guid: 878d77b350f948c449ced1653a33056b, type: 3}
+  - {fileID: 5814476989419121475, guid: 6633c5b1f222c4d49bc5986405cb2991, type: 3}
+  - {fileID: 6400653524211093086, guid: cbfe4c942f5966a4aac92ba35a3dc521, type: 3}
+  flowerpotSpawnerPrefab: {fileID: 5845589901040641381, guid: 986c039af04ce684596be0f58b16837c, type: 3}
+  pigeonHeight: 2
+  flowerpotHeight: 5

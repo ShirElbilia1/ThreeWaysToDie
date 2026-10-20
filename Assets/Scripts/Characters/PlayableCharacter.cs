@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -9,6 +10,9 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     [SerializeField] protected int damage = 50;
     protected Vector2 facingDirection = Vector2.right;
     protected int currentHp;
+    public int CurrentHp => currentHp; //read only property
+    public int MaxHp => maxHp; //read only property
+    public event Action<PlayableCharacter> OnHealthChanged; // event for change in health after taking damage
     protected Vector2 moveDirection;
     protected Animator animator;
     protected Rigidbody2D rb;
@@ -62,12 +66,13 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     }
     public virtual void Die()
     {
-        Debug.Log("character died!");
-        //TODO: Game Over!
+        Debug.Log($"{gameObject.name} died!");
+        GameManager.Instance.GameOver();
     }
-    public virtual void TakeDamage(int howMuch) //TODO: think about adding a health bar
+    public virtual void TakeDamage(int howMuch)
     {
         currentHp -= howMuch;
+        OnHealthChanged?.Invoke(this); // activate change in health event
 
         Debug.Log($"{gameObject.name} took {howMuch} damage. current HP is {currentHp}");
 
@@ -77,14 +82,8 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         Movement();
 
@@ -94,9 +93,10 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
     }
 
+    // for physics updates
     protected virtual void FixedUpdate()
     {
-        // for physics updates
-        rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
+        //rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector2(moveDirection.x * speed, rb.linearVelocity.y);
     }
 }

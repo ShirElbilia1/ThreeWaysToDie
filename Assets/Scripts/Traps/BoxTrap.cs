@@ -1,7 +1,7 @@
 using System.Data;
 using UnityEngine;
 
-public class CrazyVacuumTrap : Trap
+public class BoxTrap : Trap
 {
     [SerializeField] private int damage = 20;
     public override void ApplyDamage(IDamageable damageable)
@@ -12,11 +12,11 @@ public class CrazyVacuumTrap : Trap
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        IDamageable damagable = other.GetComponent<IDamageable>();
+        PlayableCharacter character = other.GetComponent<PlayableCharacter>();
 
-        if (damagable != null)
+        if (character != null)
         {
-            ApplyDamage(damagable);
+            ApplyDamage(character);
         }
     }
 }
