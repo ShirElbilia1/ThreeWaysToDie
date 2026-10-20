@@ -54,4 +54,13 @@ public class Pigeon : Trap
     {
         damageable.TakeDamage(damage);
     }
+    public override void TakeDamage(int howMuch)
+{
+    base.TakeDamage(howMuch);
+
+    if (currentHp > 0 && animator != null)
+    {
+        animator.SetTrigger("Damage");
+    }
+}
 }
