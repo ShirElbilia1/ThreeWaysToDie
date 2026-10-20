@@ -1,4 +1,6 @@
+
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -8,19 +10,25 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     [SerializeField] protected int speed;
     [SerializeField] protected int maxHp = 100;
     [SerializeField] protected int damage = 50;
+
     protected Vector2 facingDirection = Vector2.right;
     protected int currentHp;
-    public int CurrentHp => currentHp; //read only property
-    public int MaxHp => maxHp; //read only property
-    public event Action<PlayableCharacter> OnHealthChanged; // event for change in health after taking damage
+
+    public int CurrentHp => currentHp;
+    public int MaxHp => maxHp;
+
+    public event Action<PlayableCharacter> OnHealthChanged;
+
     protected Vector2 moveDirection;
     protected Animator animator;
     protected Rigidbody2D rb;
-
     protected SpriteRenderer spriteRenderer;
 
+    private Coroutine hitFlashCoroutine;
+    private Color originalColor;
 
     public abstract void SpecialAbility();
+
     public void ApplyDamage(IDamageable damageable)
     {
         damageable.TakeDamage(damage);
@@ -37,10 +45,8 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         if (Keyboard.current.rightArrowKey.isPressed)
             horizontal = 1f;
 
-
         moveDirection = new Vector2(horizontal, vertical).normalized;
 
-        // to flip animation direction
         if (moveDirection.x > 0)
         {
             facingDirection = Vector2.right;
@@ -54,27 +60,59 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
         bool isMoving = horizontal != 0 || vertical != 0;
 
-        if (animator != null) // to be able to work without animations
+        if (animator != null)
             animator.SetBool("IsMoving", isMoving);
     }
+
     protected virtual void Awake()
     {
         currentHp = maxHp;
-        animator = GetComponent<Animator>(); //TODO: think if this is good enough or too slow (GetComponent)
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer != null)
+            originalColor = spriteRenderer.color;
     }
+
     public virtual void Die()
     {
         Debug.Log($"{gameObject.name} died!");
         GameManager.Instance.GameOver();
     }
+
     public virtual void TakeDamage(int howMuch)
     {
         currentHp -= howMuch;
-        OnHealthChanged?.Invoke(this); // activate change in health event
+        OnHealthChanged?.Invoke(this);
 
         Debug.Log($"{gameObject.name} took {howMuch} damage. current HP is {currentHp}");
+
+        // Play hit animation if this character has one
+        if (animator != null)
+        {
+            foreach (AnimatorControllerParameter parameter in animator.parameters)
+            {
+                if (parameter.name == "Hit" &&
+                    parameter.type == AnimatorControllerParameterType.Trigger)
+                {
+                    animator.SetTrigger("Hit");
+                    break;
+                }
+            }
+        }
+
+        // Flash red three times
+        if (spriteRenderer != null)
+        {
+            if (hitFlashCoroutine != null)
+            {
+                StopCoroutine(hitFlashCoroutine);
+                spriteRenderer.color = originalColor;
+            }
+
+            hitFlashCoroutine = StartCoroutine(HitFlash());
+        }
 
         if (currentHp <= 0)
         {
@@ -82,7 +120,28 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
     }
 
-    // Update is called once per frame
+    private IEnumerator HitFlash()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+
+            spriteRenderer.color = originalColor;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        hitFlashCoroutine = null;
+    }
+
+    protected virtual void OnDisable()
+    {
+        if (spriteRenderer != null)
+            spriteRenderer.color = originalColor;
+
+        hitFlashCoroutine = null;
+    }
+
     protected virtual void Update()
     {
         Movement();
@@ -93,10 +152,11 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
     }
 
-    // for physics updates
     protected virtual void FixedUpdate()
     {
-        //rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
-        rb.linearVelocity = new Vector2(moveDirection.x * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(
+            moveDirection.x * speed,
+            rb.linearVelocity.y
+        );
     }
 }
