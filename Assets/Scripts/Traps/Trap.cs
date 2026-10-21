@@ -18,7 +18,7 @@ public abstract class Trap : MonoBehaviour, IDamageable
         Destroy(gameObject);
     }
 
-    public void TakeDamage(int howMuch)  //TODO: think about adding a health bar
+    public virtual void TakeDamage(int howMuch) //TODO: think about adding a health bar
     {
         currentHp -= howMuch;
 

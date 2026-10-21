@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 70555b280940dec4ebc3875fc4eb167d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8727146589732248487
+    second: pigeondamage1_0
+  - first:
+      213: -239781019479776522
+    second: pigeondamage1_1
+  - first:
+      213: 2014165308983940643
+    second: pigeondamage1_2
+  - first:
+      213: -4462205376641039315
+    second: pigeondamage1_3
+  - first:
+      213: -4613036434538717379
+    second: pigeondamage1_4
+  - first:
+      213: 8981416821827692214
+    second: pigeondamage1_5
+  - first:
+      213: -4536520962387624947
+    second: pigeondamage1_6
+  - first:
+      213: -3371174157675653516
+    second: pigeondamage1_7
+  - first:
+      213: -6003376486760067882
+    second: pigeondamage1_8
+  - first:
+      213: -3510215584582169140
+    second: pigeondamage1_9
+  - first:
+      213: -8491631879707143605
+    second: pigeondamage1_10
+  - first:
+      213: 1095994676631692433
+    second: pigeondamage1_11
+  - first:
+      213: -3075858637575265337
+    second: pigeondamage1_12
+  - first:
+      213: 9102884273929516656
+    second: pigeondamage1_13
+  - first:
+      213: -5948112380993992666
+    second: pigeondamage1_14
+  - first:
+      213: -3940967299845913220
+    second: pigeondamage1_15
+  - first:
+      213: 2404910477822788197
+    second: pigeondamage1_16
+  - first:
+      213: 5785912473417666150
+    second: pigeondamage1_17
+  - first:
+      213: -5152898470351103582
+    second: pigeondamage1_18
+  - first:
+      213: 6015377942544622562
+    second: pigeondamage1_19
+  - first:
+      213: 4334316771795266025
+    second: pigeondamage1_20
+  - first:
+      213: 1141955231391992723
+    second: pigeondamage1_21
+  - first:
+      213: -2737032718852517282
+    second: pigeondamage1_22
+  - first:
+      213: -3061033314811537932
+    second: pigeondamage1_23
+  - first:
+      213: 6414929868161607537
+    second: pigeondamage1_24
+  - first:
+      213: 7252755995569700926
+    second: pigeondamage1_25
+  - first:
+      213: 7958961444914462272
+    second: pigeondamage1_26
+  - first:
+      213: -5832134395744528446
+    second: pigeondamage1_27
+  - first:
+      213: -85326651994454367
+    second: pigeondamage1_28
+  - first:
+      213: 6768604682538318581
+    second: pigeondamage1_29
+  - first:
+      213: -2148314908968218599
+    second: pigeondamage1_30
+  - first:
+      213: 4341782685380832773
+    second: pigeondamage1_31
+  - first:
+      213: -3625704900108739255
+    second: pigeondamage1_32
+  - first:
+      213: 4017384626554343793
+    second: pigeondamage1_33
+  - first:
+      213: 4128616258495020746
+    second: pigeondamage1_34
+  - first:
+      213: -5357356463839291707
+    second: pigeondamage1_35
+  - first:
+      213: -1958666980178420984
+    second: pigeondamage1_36
+  - first:
+      213: 1374250614282575720
+    second: pigeondamage1_37
+  - first:
+      213: -3893118759455121917
+    second: pigeondamage1_38
+  - first:
+      213: 5427326804622029861
+    second: pigeondamage1_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pigeondamage1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1389
+        height: 1101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab90cfb59d0d1970800000000000000
+      internalID: 8727146589732248487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1087
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2e606ee602cacf0800000000000000
+      internalID: -239781019479776522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1049
+        width: 166
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32617e05da0c3fb10800000000000000
+      internalID: 2014165308983940643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1033
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24097a0adf0312c0800000000000000
+      internalID: -4462205376641039315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_4
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1017
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f926fbdc33bffb0800000000000000
+      internalID: -4613036434538717379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_5
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1018
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6e1cc830764ac70800000000000000
+      internalID: 8981416821827692214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_6
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 995
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cb5c0683a0b01c0800000000000000
+      internalID: -4536520962387624947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 995
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47614cff6fe2731d0800000000000000
+      internalID: -3371174157675653516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_8
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1000
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dccbbd74e8bfaca0800000000000000
+      internalID: -6003376486760067882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_9
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1009
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd80f31685394fc0800000000000000
+      internalID: -3510215584582169140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_10
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 993
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b425ca6cbc9a72a80800000000000000
+      internalID: -8491631879707143605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_11
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 957
+        width: 80
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194e9500a51c53f00800000000000000
+      internalID: 1095994676631692433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 130
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c36200adda5055d0800000000000000
+      internalID: -3075858637575265337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 782
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076fe0b9401f35e70800000000000000
+      internalID: 9102884273929516656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 810
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62800cecd4f047da0800000000000000
+      internalID: -5948112380993992666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 788
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c750145fe1fde49c0800000000000000
+      internalID: -3940967299845913220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 820
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5620e3b7655ff5120800000000000000
+      internalID: 2404910477822788197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 510
+        width: 141
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ecf8f4db0bb4050800000000000000
+      internalID: 5785912473417666150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 773
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a99117742a3d78b0800000000000000
+      internalID: -5152898470351103582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 876
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3a71f2e5aea7350800000000000000
+      internalID: 6015377942544622562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 856
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9efd6c326962c30800000000000000
+      internalID: 4334316771795266025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_21
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 741
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bc48c8b3a09df00800000000000000
+      internalID: 1141955231391992723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_22
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 598
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e529c2e5e3b140ad0800000000000000
+      internalID: -2737032718852517282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 562
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f595011b660585d0800000000000000
+      internalID: -3061033314811537932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 62
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177e0d23ab8660950800000000000000
+      internalID: 6414929868161607537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 457
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e304486b627f6a460800000000000000
+      internalID: 7252755995569700926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 303
+        width: 136
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ef7290449e37e60800000000000000
+      internalID: 7958961444914462272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_27
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 420
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c75f43caa8101fa0800000000000000
+      internalID: -5832134395744528446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_28
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 430
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a64ff1bcdbd0def0800000000000000
+      internalID: -85326651994454367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_29
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 370
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fafdbfd81aeeed50800000000000000
+      internalID: 6768604682538318581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 223
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9101649f8f6af22e0800000000000000
+      internalID: -2148314908968218599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 195
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ee01e395c114c30800000000000000
+      internalID: 4341782685380832773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_32
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 191
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d10a86a98eeadc0800000000000000
+      internalID: -3625704900108739255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_33
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 61
+        width: 149
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17113e7680e90c730800000000000000
+      internalID: 4017384626554343793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_34
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 166
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace7f7ddc9acb4930800000000000000
+      internalID: 4128616258495020746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 161
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c657bd3ea8d6a5b0800000000000000
+      internalID: -5357356463839291707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_36
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 62
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b9d2d42ca61d4e0800000000000000
+      internalID: -1958666980178420984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_37
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fdca017a1521310800000000000000
+      internalID: 1374250614282575720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_38
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 55
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e944a6d1dd8f9c0800000000000000
+      internalID: -3893118759455121917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pigeondamage1_39
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 47
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524b37d39fcb15b40800000000000000
+      internalID: 5427326804622029861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pigeondamage1_0: 8727146589732248487
+      pigeondamage1_1: -239781019479776522
+      pigeondamage1_10: -8491631879707143605
+      pigeondamage1_11: 1095994676631692433
+      pigeondamage1_12: -3075858637575265337
+      pigeondamage1_13: 9102884273929516656
+      pigeondamage1_14: -5948112380993992666
+      pigeondamage1_15: -3940967299845913220
+      pigeondamage1_16: 2404910477822788197
+      pigeondamage1_17: 5785912473417666150
+      pigeondamage1_18: -5152898470351103582
+      pigeondamage1_19: 6015377942544622562
+      pigeondamage1_2: 2014165308983940643
+      pigeondamage1_20: 4334316771795266025
+      pigeondamage1_21: 1141955231391992723
+      pigeondamage1_22: -2737032718852517282
+      pigeondamage1_23: -3061033314811537932
+      pigeondamage1_24: 6414929868161607537
+      pigeondamage1_25: 7252755995569700926
+      pigeondamage1_26: 7958961444914462272
+      pigeondamage1_27: -5832134395744528446
+      pigeondamage1_28: -85326651994454367
+      pigeondamage1_29: 6768604682538318581
+      pigeondamage1_3: -4462205376641039315
+      pigeondamage1_30: -2148314908968218599
+      pigeondamage1_31: 4341782685380832773
+      pigeondamage1_32: -3625704900108739255
+      pigeondamage1_33: 4017384626554343793
+      pigeondamage1_34: 4128616258495020746
+      pigeondamage1_35: -5357356463839291707
+      pigeondamage1_36: -1958666980178420984
+      pigeondamage1_37: 1374250614282575720
+      pigeondamage1_38: -3893118759455121917
+      pigeondamage1_39: 5427326804622029861
+      pigeondamage1_4: -4613036434538717379
+      pigeondamage1_5: 8981416821827692214
+      pigeondamage1_6: -4536520962387624947
+      pigeondamage1_7: -3371174157675653516
+      pigeondamage1_8: -6003376486760067882
+      pigeondamage1_9: -3510215584582169140
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
