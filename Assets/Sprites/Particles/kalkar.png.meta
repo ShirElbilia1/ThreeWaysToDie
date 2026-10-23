@@ -1,0 +1,1744 @@
+fileFormatVersion: 2
+guid: 6cbf43647ed044c4b897db20756ba03c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3583954378550161715
+    second: kalkar_0
+  - first:
+      213: 7943325624360148058
+    second: kalkar_1
+  - first:
+      213: 3764686810125759572
+    second: kalkar_2
+  - first:
+      213: 1773509096946456198
+    second: kalkar_3
+  - first:
+      213: -4743128381279315495
+    second: kalkar_4
+  - first:
+      213: 5041980529352324016
+    second: kalkar_5
+  - first:
+      213: 7330860394103224610
+    second: kalkar_6
+  - first:
+      213: 3730884904270806145
+    second: kalkar_7
+  - first:
+      213: 623160538783048254
+    second: kalkar_8
+  - first:
+      213: 2805752333766473044
+    second: kalkar_9
+  - first:
+      213: -707156304467355140
+    second: kalkar_10
+  - first:
+      213: -636510867659746866
+    second: kalkar_11
+  - first:
+      213: 2761709042404545400
+    second: kalkar_12
+  - first:
+      213: 7213407852146482843
+    second: kalkar_13
+  - first:
+      213: -130499801623209687
+    second: kalkar_14
+  - first:
+      213: 7432854860345185427
+    second: kalkar_15
+  - first:
+      213: -9209526166456248850
+    second: kalkar_16
+  - first:
+      213: -777735314028846520
+    second: kalkar_17
+  - first:
+      213: 7368963610497217020
+    second: kalkar_18
+  - first:
+      213: -7874501374207286129
+    second: kalkar_19
+  - first:
+      213: -2353720037372561611
+    second: kalkar_20
+  - first:
+      213: -2184581177545235197
+    second: kalkar_21
+  - first:
+      213: -3379535855222552172
+    second: kalkar_22
+  - first:
+      213: -6238865434606353398
+    second: kalkar_23
+  - first:
+      213: 1458084538041560771
+    second: kalkar_24
+  - first:
+      213: -7957695074325235880
+    second: kalkar_25
+  - first:
+      213: 9017109149922928353
+    second: kalkar_26
+  - first:
+      213: -6339978430236876165
+    second: kalkar_27
+  - first:
+      213: -8995169651426343055
+    second: kalkar_28
+  - first:
+      213: 6146649805145357986
+    second: kalkar_29
+  - first:
+      213: -922324382723004351
+    second: kalkar_30
+  - first:
+      213: -1406464147718383513
+    second: kalkar_31
+  - first:
+      213: 6716725975243787130
+    second: kalkar_32
+  - first:
+      213: -2807730427921110896
+    second: kalkar_33
+  - first:
+      213: -6463525102872214334
+    second: kalkar_34
+  - first:
+      213: -6760094003125839002
+    second: kalkar_35
+  - first:
+      213: 8923925657670796955
+    second: kalkar_36
+  - first:
+      213: 3795491518061913460
+    second: kalkar_37
+  - first:
+      213: -7155798160165039232
+    second: kalkar_38
+  - first:
+      213: 4443012440467441088
+    second: kalkar_39
+  - first:
+      213: -3998597829609631777
+    second: kalkar_40
+  - first:
+      213: -4204601313461916499
+    second: kalkar_41
+  - first:
+      213: -2239836555751064116
+    second: kalkar_42
+  - first:
+      213: -6572721766465418573
+    second: kalkar_43
+  - first:
+      213: -8576816640493293018
+    second: kalkar_44
+  - first:
+      213: 2714852851632860340
+    second: kalkar_45
+  - first:
+      213: 59426981400636134
+    second: kalkar_46
+  - first:
+      213: -7994468417407694670
+    second: kalkar_47
+  - first:
+      213: 8096120246633509766
+    second: kalkar_48
+  - first:
+      213: -8996349965293455931
+    second: kalkar_49
+  - first:
+      213: -1889638852131555855
+    second: kalkar_50
+  - first:
+      213: -422490222823965330
+    second: kalkar_51
+  - first:
+      213: 2411837042705382050
+    second: kalkar_52
+  - first:
+      213: 67212194347486783
+    second: kalkar_53
+  - first:
+      213: 1744886685322295157
+    second: kalkar_54
+  - first:
+      213: 1575012068729426074
+    second: kalkar_55
+  - first:
+      213: 7265678680645930868
+    second: kalkar_56
+  - first:
+      213: -5122244597718362350
+    second: kalkar_57
+  - first:
+      213: -660410098412582968
+    second: kalkar_58
+  - first:
+      213: -5117298090730180927
+    second: kalkar_59
+  - first:
+      213: 98076238145774306
+    second: kalkar_60
+  - first:
+      213: -9012300087040712092
+    second: kalkar_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kalkar_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 524
+        width: 289
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcecf473b7c334ec0800000000000000
+      internalID: -3583954378550161715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 517
+        width: 306
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c9e3fd19c5c3e60800000000000000
+      internalID: 7943325624360148058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 516
+        width: 217
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454f42825bade3430800000000000000
+      internalID: 3764686810125759572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_3
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 534
+        width: 242
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686da619025cc9810800000000000000
+      internalID: 1773509096946456198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_4
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 534
+        width: 223
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9d5cd0ed50d2eb0800000000000000
+      internalID: -4743128381279315495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 532
+        width: 326
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b33b70f396b8f540800000000000000
+      internalID: 5041980529352324016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_6
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 705
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229b08810b27cb560800000000000000
+      internalID: 7330860394103224610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 333
+        width: 176
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cbde8ad04c6c330800000000000000
+      internalID: 3730884904270806145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 332
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3264385539e5a800800000000000000
+      internalID: 623160538783048254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 324
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455bfddc1e800f620800000000000000
+      internalID: 2805752333766473044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 330
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf99b87761daf26f0800000000000000
+      internalID: -707156304467355140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 310
+        width: 172
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1177dfcb8aa27f0800000000000000
+      internalID: -636510867659746866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 292
+        width: 171
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873d18dedbf835620800000000000000
+      internalID: 2761709042404545400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_13
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 320
+        width: 160
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e5437293c2b1460800000000000000
+      internalID: 7213407852146482843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_14
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 282
+        width: 130
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9295df03f1f503ef0800000000000000
+      internalID: -130499801623209687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_15
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 276
+        width: 174
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39419e15d1ec62760800000000000000
+      internalID: 7432854860345185427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_16
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 320
+        width: 120
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5d5baeeb0313080800000000000000
+      internalID: -9209526166456248850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_17
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 280
+        width: 275
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842a80e3adde435f0800000000000000
+      internalID: -777735314028846520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_18
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 299
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1777e7c51d34660800000000000000
+      internalID: 7368963610497217020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_19
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 318
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ac0798b628b290800000000000000
+      internalID: -7874501374207286129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 159
+        width: 158
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53770b7b818e55fd0800000000000000
+      internalID: -2353720037372561611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_21
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 298
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30569615efecea1e0800000000000000
+      internalID: -2184581177545235197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_22
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 282
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49983c39b0a7911d0800000000000000
+      internalID: -3379535855222552172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_23
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 306
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0443d031f81b69a0800000000000000
+      internalID: -6238865434606353398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_24
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 298
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cee47e79282c3410800000000000000
+      internalID: 1458084538041560771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_25
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 306
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857f7f7dd76909190800000000000000
+      internalID: -7957695074325235880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_26
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 294
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6a4164ff4332d70800000000000000
+      internalID: 9017109149922928353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_27
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 143
+        width: 211
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72a716553fd308a0800000000000000
+      internalID: -6339978430236876165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_28
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177cb584cdcba2380800000000000000
+      internalID: -8995169651426343055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_29
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 282
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aeb9627e694d4550800000000000000
+      internalID: 6146649805145357986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 178
+        width: 131
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482d105cde3333f0800000000000000
+      internalID: -922324382723004351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_31
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 169
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7685ce53f4c3b7ce0800000000000000
+      internalID: -1406464147718383513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_32
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 185
+        width: 140
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b8b0010ba963d50800000000000000
+      internalID: 6716725975243787130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_33
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 193
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098e4b24d00f809d0800000000000000
+      internalID: -2807730427921110896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_34
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 174
+        width: 107
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c44b760a22fc46a0800000000000000
+      internalID: -6463525102872214334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_35
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 153
+        width: 170
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b9f6712525f22a0800000000000000
+      internalID: -6760094003125839002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_36
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 137
+        width: 162
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96467bca1728db70800000000000000
+      internalID: 8923925657670796955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_37
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 250
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475a6122d6b4ca430800000000000000
+      internalID: 3795491518061913460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_38
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 201
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08318f28c7f71bc90800000000000000
+      internalID: -7155798160165039232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_39
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 197
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c504b64640c8ad30800000000000000
+      internalID: 4443012440467441088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_40
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 176
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf487e95702288c0800000000000000
+      internalID: -3998597829609631777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_41
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 177
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac26f0e16146a5c0800000000000000
+      internalID: -4204601313461916499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_42
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 176
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdf58b05808ae0e0800000000000000
+      internalID: -2239836555751064116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 156
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bac95e806009c4a0800000000000000
+      internalID: -6572721766465418573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 65
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622fcb715b609f880800000000000000
+      internalID: -8576816640493293018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 36
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc680fd8481da520800000000000000
+      internalID: 2714852851632860340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_46
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 52
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea6574568023d000800000000000000
+      internalID: 59426981400636134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8c554b451fd0190800000000000000
+      internalID: -7994468417407694670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_48
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 87
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683307f18723b5070800000000000000
+      internalID: 8096120246633509766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_49
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 34
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5f59b0f5b862380800000000000000
+      internalID: -8996349965293455931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_50
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 42
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5fbe8c977a6c5e0800000000000000
+      internalID: -1889638852131555855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_51
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 62
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d708b7163032af0800000000000000
+      internalID: -422490222823965330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_52
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 48
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa359a0301987120800000000000000
+      internalID: 2411837042705382050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_53
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 78
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e08a87229cee000800000000000000
+      internalID: 67212194347486783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_54
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 0
+        width: 172
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577b1fb0235173810800000000000000
+      internalID: 1744886685322295157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_55
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 79
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a901299b1219bd510800000000000000
+      internalID: 1575012068729426074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_56
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 48
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f870cc340e4d460800000000000000
+      internalID: 7265678680645930868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_57
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 87
+        width: 91
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217555c5da12ae8b0800000000000000
+      internalID: -5122244597718362350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_58
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 65
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c78906b380c5d6f0800000000000000
+      internalID: -660410098412582968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_59
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 44
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce2e34cf74bbf8b0800000000000000
+      internalID: -5117298090730180927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_60
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 53
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2e597a1df6c5100800000000000000
+      internalID: 98076238145774306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kalkar_61
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46267bee1d0ede280800000000000000
+      internalID: -9012300087040712092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f20da81ebb51b8947b24f128ac2d745c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      kalkar_0: -3583954378550161715
+      kalkar_1: 7943325624360148058
+      kalkar_10: -707156304467355140
+      kalkar_11: -636510867659746866
+      kalkar_12: 2761709042404545400
+      kalkar_13: 7213407852146482843
+      kalkar_14: -130499801623209687
+      kalkar_15: 7432854860345185427
+      kalkar_16: -9209526166456248850
+      kalkar_17: -777735314028846520
+      kalkar_18: 7368963610497217020
+      kalkar_19: -7874501374207286129
+      kalkar_2: 3764686810125759572
+      kalkar_20: -2353720037372561611
+      kalkar_21: -2184581177545235197
+      kalkar_22: -3379535855222552172
+      kalkar_23: -6238865434606353398
+      kalkar_24: 1458084538041560771
+      kalkar_25: -7957695074325235880
+      kalkar_26: 9017109149922928353
+      kalkar_27: -6339978430236876165
+      kalkar_28: -8995169651426343055
+      kalkar_29: 6146649805145357986
+      kalkar_3: 1773509096946456198
+      kalkar_30: -922324382723004351
+      kalkar_31: -1406464147718383513
+      kalkar_32: 6716725975243787130
+      kalkar_33: -2807730427921110896
+      kalkar_34: -6463525102872214334
+      kalkar_35: -6760094003125839002
+      kalkar_36: 8923925657670796955
+      kalkar_37: 3795491518061913460
+      kalkar_38: -7155798160165039232
+      kalkar_39: 4443012440467441088
+      kalkar_4: -4743128381279315495
+      kalkar_40: -3998597829609631777
+      kalkar_41: -4204601313461916499
+      kalkar_42: -2239836555751064116
+      kalkar_43: -6572721766465418573
+      kalkar_44: -8576816640493293018
+      kalkar_45: 2714852851632860340
+      kalkar_46: 59426981400636134
+      kalkar_47: -7994468417407694670
+      kalkar_48: 8096120246633509766
+      kalkar_49: -8996349965293455931
+      kalkar_5: 5041980529352324016
+      kalkar_50: -1889638852131555855
+      kalkar_51: -422490222823965330
+      kalkar_52: 2411837042705382050
+      kalkar_53: 67212194347486783
+      kalkar_54: 1744886685322295157
+      kalkar_55: 1575012068729426074
+      kalkar_56: 7265678680645930868
+      kalkar_57: -5122244597718362350
+      kalkar_58: -660410098412582968
+      kalkar_59: -5117298090730180927
+      kalkar_6: 7330860394103224610
+      kalkar_60: 98076238145774306
+      kalkar_61: -9012300087040712092
+      kalkar_7: 3730884904270806145
+      kalkar_8: 623160538783048254
+      kalkar_9: 2805752333766473044
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
